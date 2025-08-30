@@ -25,14 +25,13 @@
   <canvas class="emscripten" id="canvas"
           oncontextmenu="event.preventDefault()" tabindex="1"></canvas>
 
-  <!-- Este script carga pygbag y busca el juego en /data/main.py -->
   <script src="https://pygame-web.github.io/archives/0.9/pythons.js"
           type="module"
           id="site"
           data-python="python3.12"
           data-os="vtx,fs,snd,gui"
-          data-root="."
           data-src="data/main.py"
+          data-root="."
           async defer>
   </script>
 </body>
